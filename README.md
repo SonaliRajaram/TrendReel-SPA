@@ -14,7 +14,7 @@ SPA_Project is a Single Page Application (SPA) built with Angular. It includes f
 - *Modular Architecture*: Well-structured code for scalability and maintainability.
 
 ## Project Structure
-
+```
 SPA_Project/
  ├── src/
 │ ├── app/
@@ -58,7 +58,7 @@ SPA_Project/
 ├── tsconfig.json
 ├── README.md
 
-
+```
 ---
 
 ## Installation & Setup
@@ -66,61 +66,61 @@ SPA_Project/
 ### Prerequisites
 - Install [Node.js](https://nodejs.org/) (v16 or higher recommended).
 - Install Angular CLI globally:
-  sh
+  ```sh
   npm install -g @angular/cli
-  
+  ```
 
 ## Steps
 1.Clone the repository:
-sh
+```sh
 git clone <repository-url>
 cd SPA_Project
-
+```
 2.Install dependencies:
-sh
+```sh
 npm install
-
+```
 3.Set up environment files:
 src/environments/environment.ts:
-sh
+```sh
 export const environment = {
   production: false,
   apiUrl: 'http://localhost:3000/api'
 };
-
+```
 environment.prod.ts:
-sh
+```sh
 export const environment = {
   production: true,
   apiUrl: 'https://api.example.com'
 };
-
+```
 
 ## Usage
 1.Start the development server:
-sh
+```sh
 ng serve
-
+```
 2.Open your browser and navigate to:
-sh
+```sh
 http://localhost:4200
-
+```
 3.Use the following credentials to log in:
-sh
+```sh
 Username: Sonali
 Password: sonali@1
-
+```
 
 ## Testing
 To execute unit tests and validate functionalities, run:
-sh
+```sh
 ng test
-
+```
 ## Build for Production
 To build the application for production, run:
-sh
+```sh
 ng build --prod
-
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
